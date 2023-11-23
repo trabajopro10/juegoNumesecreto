@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+    
+    <title>JS Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__contenido">
+            <div class="container__informaciones">
+                <div class="container__texto">
+                    <h1 id="id1_h1">hh</h1>
+                    <p id="id1_p" class="texto__parrafo"></p>
+                </div>
+                <input id="idnumeroUsuario" type="number" value="0" min="1" max="10" class="container__input">
+                <div class="chute container__botones">
+                    <button id="btnIntento" class="container__boton">Intentar</button>
+                    <button id="idnuevoJuego" class="container__boton" disabled>Nuevo juego</button>   <!-- disable estaba así disable> Nuevo juego< --> 
+                </div>
+                <div class="clsmensajes">
+                    <p id="idpMensajes">
+                        MENSAJES: 
+                    </p>
+                </div>
+            </div>
+            <img src="static/img/ia.png" alt="Una persona mirando a la izquierda" class="container__imagen-persona" />
+        </div>
+    </div>
+      
+    <!-- defer, le dice al Html que no espere el script de javaScript, que continue con el html y luego cuando tengal 
+         el DOM ejecute el Script -->
+    <!--<script src="static/js/app.js"> defer</script>-->
+    <script src="static/js/app.js"> defer</script>
+    <script>fnverificarIntento();</script>
+    <script>fnnuevoJuevo();</script>
+    <!--<script>fnverificarInput();</script>-->
+    
+</body>
+
+</html>
