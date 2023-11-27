@@ -9,7 +9,7 @@ let arrNumeroSecreto = [];
 // El número de intentos que tiene la persona para jugar 
 let nuIntentos = 3;
 // el número máximo del númerop secreto
-let nuMaximoSecreto = 4;
+let nuMaximoSecreto = 10;
 let nuCantidadVecesNumSecreto = 3;
 var nuInteGeneNumeSecreto = 0;
 
